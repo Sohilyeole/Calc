@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  background-image: linear-gradient(#2E3192 , #1BFFFF);
+}
+.container {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+}
+.reset {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.equal {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+button {
+  height: 40px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+input {
+  height: 50px;
+  width: 295px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  border-radius: 18px;
+}
+.main {
+  max-width: fit-content;
+  padding: 30px;
+  background-color: black;
+  border-radius: 30px;
+}
